@@ -21,7 +21,7 @@ class CreatePost extends Component
 
     public function render()
     {
-        return view('show-posts', [
+        return view('livewire.pagination', [
             'posts' => user::where('title', 'like', '%'.$this->query.'%')->paginate(10),
         ]);
     }
