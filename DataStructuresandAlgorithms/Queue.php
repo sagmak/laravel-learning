@@ -1,5 +1,5 @@
 <?php
-
+      // A queue is a linear dynamic data structure that follows First-In/First-Out (FIFO) principle
 class CreateQueue {
   public $front;
   public $rear;
